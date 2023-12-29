@@ -25,3 +25,36 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.centerSlide {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.WhatsApp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:40px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+}
+
+@media (max-width:720px) {
+  .centerSlide {
+    width: 100%;
+  }
+}
