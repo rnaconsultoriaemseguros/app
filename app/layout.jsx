@@ -1,5 +1,7 @@
 import { Roboto } from "next/font/google";
 import "./styles/globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 import NavBar from "./components/navbar";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
