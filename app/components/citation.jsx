@@ -1,6 +1,6 @@
 export default function Citation() {
   return (
-    <div className="flex flex-col justify-center md:px-64 mb-24">
+    <div className="flex flex-col justify-center md:px-64 mb-24 px-2">
       <div>
         <h2 className="font-bold md:text-5xl text-4xl text-center mb-12">
           Cuidamos dos seus <span className="text-[#2B3E59]">seguros</span> para
