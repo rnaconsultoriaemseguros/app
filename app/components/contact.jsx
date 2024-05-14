@@ -40,7 +40,7 @@ export default function Contact() {
           >
             Seu nome
           </label>
-          <div class="mt-2 mb-5 w-80">
+          <div class="mt-2 mb-5">
             <input
               type="text"
               name="first-name"
