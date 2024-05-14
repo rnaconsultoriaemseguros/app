@@ -50,7 +50,7 @@ export default function About2() {
             layout="fill"
             alt="About Us"
           />
-          <div>
+          <div className="relative">
             <div className="border-2 border-white rounded-full text-white w-20 h-20 mb-6 p-1">
               <BsFileEarmarkText style={BsFileEarmarkTextIcon} />
             </div>
