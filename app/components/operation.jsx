@@ -71,8 +71,8 @@ export default function Operation() {
 
         <div className="md:flex-1 border-2 border-[#ACA4C0] rounded-2xl mx-4 relative overflow-hidden mb-8 md:mb-0">
           <Image
-            src="/insurance.png"
-            alt="Seguros"
+            src="/consorcios.png"
+            alt="Consórcios"
             width={386}
             height={258}
             className="px-2 relative z-10"
@@ -106,8 +106,8 @@ export default function Operation() {
 
         <div className="md:flex-1 border-2 border-[#ACA4C0] rounded-2xl mx-4 relative overflow-hidden mb-8 md:mb-0">
           <Image
-            src="/insurance.png"
-            alt="Seguros"
+            src="/planos-de-saude.png"
+            alt="Planos de Saúde"
             width={386}
             height={258}
             className="px-2 relative z-10"
