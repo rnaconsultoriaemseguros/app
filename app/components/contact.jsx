@@ -33,7 +33,7 @@ export default function Contact() {
 
         <div className="md:after:block md:after:bg-white md:after:w-[1px] md:after:h-[500px] md:after:mx-2"></div>
 
-        <div className="md:flex-1 md:ml-4">
+        <div className="md:flex-1 md:ml-4 w-full">
           <label
             for="first-name"
             class="block text-sm font-medium leading-6 text-white"
