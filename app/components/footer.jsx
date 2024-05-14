@@ -93,7 +93,7 @@ export default function Footer() {
         <div className="mt-10">
           <a
             href="#"
-            className="bg-[#FFFFFF] text-[#2B3E59] hover:transition-all hover:bg-[#A5B9D3] hover:text-[#211C1B] rounded-full mx-3 px-6 py-4 md:text-sm text-[0.830rem] font-bold"
+            className="bg-[#FFFFFF] text-[#2B3E59] hover:transition-all hover:bg-[#A5B9D3] hover:text-[#211C1B] rounded-full mx-3 px-6 py-4 md:text-sm text-[0.800rem] font-bold"
           >
             ME CADASTRE NA LISTA DE NOVIDADES
           </a>
