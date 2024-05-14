@@ -2,6 +2,7 @@ import About from "./components/about";
 import About2 from "./components/about2";
 import Citation from "./components/citation";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 import Operation from "./components/operation";
 import Slider from "./components/slider";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Operation />
       <Contact />
       <Citation />
+      <Footer />
     </>
   );
 }
