@@ -14,7 +14,7 @@ export default function Citation() {
           href="#"
           className="px-6 py-3 text-center bg-[#2B3E59] text-white hover:transition-all hover:bg-[#A5B9D3] hover:text-[#211C1B] rounded-full mx-3 md:text-4xl text-2xl font-bold"
         >
-          Faça uma cotação conosco
+          Faça uma cotação
         </a>
       </div>
     </div>
