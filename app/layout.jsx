@@ -3,6 +3,7 @@ import "./styles/globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
