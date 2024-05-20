@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
+import Credits from "./components/credits";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
+        <Credits />
       </body>
     </html>
   );
