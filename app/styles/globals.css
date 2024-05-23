@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.path {
+  clip-path: polygon(0% 0%, 100% 0, 91% 9%, 91% 100%, 50% 100%, 0 100%);
+}
