@@ -115,7 +115,7 @@ export default function AboutUs() {
                 em seu trabalho.
               </div>
             </div>
-            <div className="text-center md:mr-28 mr-8 -mt-14 text-2xl font-bold bg-[#2B3E59] text-white rounded-b-xl mb-16 relative py-4">
+            <div className="text-center md:mr-28 mr-8 -mt-14 text-2xl font-bold bg-[#2B3E59] text-white rounded-b-xl md:mb-16 relative py-4">
               Michele - Campinas/SP
             </div>
           </div>
