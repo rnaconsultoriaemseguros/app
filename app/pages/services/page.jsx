@@ -36,14 +36,16 @@ export default function Services() {
       </div>
 
       <div className="text-center mt-16 mb-16">
-        <h2 className="text-5xl font-bold text-[#2B3E59]">
+        <h2 className="md:text-5xl text-4xl font-bold text-[#2B3E59]">
           Produtos e Serviços
         </h2>
-        <h3 className="text-3xl">Conheça todas as nossas soluções</h3>
+        <h3 className="md:text-3xl text-2xl px-8">
+          Conheça todas as nossas soluções
+        </h3>
       </div>
 
-      <div className="flex md:flex-row flex-col md:pl-24 md:mb-8 px-5">
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+      <div className="flex flex-col items-center md:flex-row md:justify-center md:mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/residencias.png"}
             alt="Proteção para Residências"
@@ -58,14 +60,14 @@ export default function Services() {
             <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Proteção para Residências
             </h3>
-            <h5 className="pr-16 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               Sua residência protegida contra incêndio, pane elétrica,
               vazamento, serviço de chaveiro e mais.
             </h5>
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/veiculos.png"}
             alt="Proteção para Veículos"
@@ -77,17 +79,17 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59] pr-16">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Proteção para Veículos
             </h3>
-            <h5 className="pr-12 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               A proteção veicular oferece proteção à seu veículo, incluindo
               danos causados por colisões, roubos e outros eventos.
             </h5>
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8">
           <Image
             src={"/financeira.png"}
             alt="Proteção Financeira"
@@ -99,10 +101,10 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59] pr-24">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Proteção Financeira
             </h3>
-            <h5 className="pr-12 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               Seguro para cobrir eventos que podem gerar dificuldades no
               orçamento, como invalidez temporária ou permanente.
             </h5>
@@ -110,8 +112,8 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:pl-24 md:mb-8 px-5">
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+      <div className="flex flex-col items-center md:flex-row md:justify-center md:mb-8 px-5">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/empresas.png"}
             alt="Proteção para Empresas"
@@ -123,7 +125,7 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59] pr-12">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Proteção para Empresas
             </h3>
             <h5 className="pr-6 mt-4 mb-8">
@@ -133,7 +135,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/civil.png"}
             alt="Seguro de Responsabilidade Civil"
@@ -148,14 +150,14 @@ export default function Services() {
             <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Seguro de Responsabilidade Civil
             </h3>
-            <h5 className="pr-12 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               O principal objetivo deste seguro é de reembolsar os valores
               despendidos nas ações administrativas ou judiciais.
             </h5>
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8">
           <Image
             src={"/condominios.png"}
             alt="Proteção para Condomínios"
@@ -170,7 +172,7 @@ export default function Services() {
             <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Proteção para Condomínios
             </h3>
-            <h5 className="pr-20 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               A Proteção para Condomínios cobre despesas com reformas, reparos e
               danos em condomínios.
             </h5>
@@ -178,8 +180,8 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:pl-24 md:mb-8 px-5">
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+      <div className="flex flex-col items-center md:flex-row md:justify-center md:mb-8 px-5">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/consorcios_interna.png"}
             alt="Consórcios"
@@ -191,7 +193,9 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">Consórcios</h3>
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
+              Consórcios
+            </h3>
             <h5 className="pr-6 mt-4 mb-8">
               Seguro que garante ao cotista a cobertura no valor do crédito
               contratado, somado às taxas administrativas previstas.
@@ -199,7 +203,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/previdencia.png"}
             alt="Previdência Privada"
@@ -211,25 +215,27 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Previdência Privada
             </h3>
-            <h5 className="pr-10 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               Investimento disponibilizado para pessoas físicas com o caráter de
               longo prazo, a fim de complementar a previdência pública.
             </h5>
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8">
           <Image src={"/pet.png"} alt="Saúde Pet" width={362} height={246} />
           <div className="icon bg-[#2b3e59] px-3 py-3 rounded-xl float-end -mt-8 mr-6 relative">
             <BsChatSquareHeart style={icon} />
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">Saúde Pet</h3>
-            <h5 className="pr-16 mt-4 mb-8">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
+              Saúde Pet
+            </h3>
+            <h5 className="pr-6 mt-4 mb-8">
               Proteção para animais de estimação que realiza a cobertura de uma
               série de sinistros.
             </h5>
@@ -237,8 +243,8 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:pl-24 md:mb-8 px-5">
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+      <div className="flex flex-col items-center md:flex-row md:justify-center md:mb-8 px-5">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/vida.png"}
             alt="Proteção para a vida"
@@ -250,17 +256,17 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Proteção para a vida
             </h3>
             <h5 className="pr-6 mt-4 mb-8">
               É um contrato pelo qual a seguradora se compromete a pagar uma
-              indenização a beneficiáios indicados pelo segurado.
+              indenização a beneficiários indicados pelo segurado.
             </h5>
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/emprestimos.png"}
             alt="Empréstimos e Financiamentos"
@@ -272,17 +278,17 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Empréstimos e Financiamentos
             </h3>
-            <h5 className="pr-10 mt-4 mb-8">
+            <h5 className="pr-6 mt-4 mb-8">
               Seguro que cobre o valor total ou as parcelas de empréstimos e
               financiamentos do segurado nas situações contempladas na apólice.
             </h5>
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8">
           <Image
             src={"/rural.png"}
             alt="Seguro Rural"
@@ -294,8 +300,10 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">Seguro Rural</h3>
-            <h5 className="pr-16 mt-4 mb-8">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
+              Seguro Rural
+            </h3>
+            <h5 className="pr-6 mt-4 mb-8">
               Protege o produtor contra perdas financeiras resultantes de
               eventos imprevisíveis, como fenômenos climáticos por exemplo.
             </h5>
@@ -303,8 +311,8 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="flex md:flex-row flex-col md:pl-24 mb-16 px-5 justify-center">
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+      <div className="flex flex-col items-center md:flex-row md:justify-center mb-16 px-5">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/nautico.png"}
             alt="Seguro Náutico"
@@ -316,7 +324,7 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
               Seguro Náutico
             </h3>
             <h5 className="pr-6 mt-4 mb-8">
@@ -326,7 +334,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mr-16 mb-8">
+        <div className="w-[362px] border border-[#ACA4C0] rounded-2xl mb-8 md:mr-16">
           <Image
             src={"/bicicleta.png"}
             alt="Seguro Bike"
@@ -338,7 +346,9 @@ export default function Services() {
           </div>
           <div className="pl-9">
             <hr className="w-20 h-1 mt-7 mb-7 bg-gray-100 border-0 rounded dark:bg-[#ACA4C0]" />
-            <h3 className="font-bold text-2xl text-[#2B3E59]">Seguro Bike</h3>
+            <h3 className="font-bold text-2xl text-[#2B3E59] pr-6">
+              Seguro Bike
+            </h3>
             <h5 className="pr-6 mt-4 mb-8">
               Apólice de seguro que oferece proteção financeira para ciclistas
               em caso de roubo ou danos acidentais.
