@@ -3,8 +3,8 @@ import HomePage from "./pages/home/page";
 export default function Home() {
   return (
     <>
-      {/* <HomePage /> */}
-      <div className="flex h-screen text-center">
+      <HomePage />
+      {/* <div className="flex h-screen text-center">
         <div className="m-auto">
           <h2 className="text-4xl font-bold text-[#2B3E59]">
             Site em Construção
@@ -14,7 +14,7 @@ export default function Home() {
             você!
           </h4>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

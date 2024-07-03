@@ -17,10 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={roboto.className}>
-        {/* <NavBar /> */}
+        <NavBar />
         {children}
-        {/* <Footer />
-        <Credits /> */}
+        <Footer />
+        <Credits />
       </body>
     </html>
   );
