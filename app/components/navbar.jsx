@@ -95,26 +95,26 @@ export default function NavBar() {
                     Produtos e Serviços
                   </Link>
 
-                  <Link
+                  {/* <Link
                     href={"/pages/partners"}
                     className="text-[#211C1B] hover:transition-all hover:bg-[#2B3E59] hover:text-white rounded-full mx-3 px-3 py-2 text-sm font-medium"
                   >
                     Parceiros
-                  </Link>
+                  </Link> */}
 
-                  <Link
+                  {/* <Link
                     href={"/pages/conventions"}
                     className="text-[#211C1B] hover:transition-all hover:bg-[#2B3E59] hover:text-white rounded-full mx-3 px-3 py-2 text-sm font-medium"
                   >
                     Convênios
-                  </Link>
+                  </Link> */}
 
-                  <Link
+                  {/* <Link
                     href={"/pages/contact"}
                     className="bg-[#2B3E59] text-white hover:transition-all hover:bg-[#A5B9D3] hover:text-[#211C1B] rounded-full mx-3 px-3 py-2 text-sm font-medium"
                   >
                     Entre em Contato
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
